@@ -1,0 +1,23 @@
+{
+  "name": "holly-craft",
+  "version": "0.0.1",
+  "description": "ENVOYsites Gulp build system and boilerplate for Craft 3 CMS.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "postinstall": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weareenvoy/holly-craft.git"
+  },
+  "author": "ENVOY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weareenvoy/holly-craft/issues"
+  },
+  "homepage": "https://github.com/weareenvoy/holly-craft#readme",
+  "dependencies": {
+    "holly": "weareenvoy/holly"
+  }
+}
