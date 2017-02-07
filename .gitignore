@@ -19,5 +19,5 @@ npm-debug.log
 .tmp
 .scssc
 
-# Silvvr files
-public
+# Holly files
+dist

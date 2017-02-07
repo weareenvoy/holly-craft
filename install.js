@@ -1,10 +1,12 @@
 var fs = require('fs')
 
-// console.log('dir: ' + process.cwd())
+fs.readFile('./templates/gulpfile.tpl.js', 'utf8', function (err, data) {
 
-fs.writeFile('../../gulpfile.js', "global.config = require('./node_modules/holly-craft/config'); require('./node_modules/holly/buildsys');", function (err) {
-  if (err) {
-    return console.log(err)
-  }
-  console.log('Gulpfile created!')
+  if (err) return console.log(err)
+
+  // Write template file contents to new file
+  fs.writeFile('../../gulpfile.js', data, function (err) {
+    if (err) return console.log(err)
+    console.log('Created gulpfile.js')
+  })
 })
