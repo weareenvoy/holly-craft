@@ -4,6 +4,7 @@
   "description": "ENVOYsites Gulp build system and boilerplate for Craft 3 CMS.",
   "main": "gulpfile.js",
   "scripts": {
+    "dev": "gulp --dev",
     "postinstall": "node install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -5,6 +5,7 @@
  */
 
 var fs = require('fs')
+var runSequence = require('run-sequence')
 
 /**
  * Require all gulp tasks...
@@ -15,4 +16,20 @@ tasks.forEach(function (task) {
     console.log(`holly-craft: Requiring task ${task}...`)
     require(`./tasks/${task}`)
   }
+})
+
+/**
+ * Require default gulp commands
+ */
+var taskList = require('./default-tasks')
+
+// Append special tasks to base 'holly' tasks
+taskList = global.taskList.push(taskList)
+
+// Append 'watch' task for local development
+taskList.push('watch')
+
+/* --- $ gulp --- */
+gulp.task('default', function (cb) {
+  return runSequence.apply(null, taskList)
 })
