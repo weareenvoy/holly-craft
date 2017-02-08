@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/weareenvoy/holly-craft#readme",
   "dependencies": {
-    "holly": "weareenvoy/holly"
+    "holly": "weareenvoy/holly",
+    "ncp": "^2.0.0"
   }
 }

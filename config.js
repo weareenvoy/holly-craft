@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  root: './src',
   styles: {
     src: './src/styles',
     output: './dist/css'
