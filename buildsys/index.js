@@ -10,13 +10,16 @@ var runSequence = require('run-sequence')
 /**
  * Require all gulp tasks...
  */
-var tasks = fs.readdirSync(__dirname + '/tasks/')
-tasks.forEach(function (task) {
-  if (/\.js/.test(task)) {
-    console.log(`holly-craft: Requiring task ${task}...`)
-    require(`./tasks/${task}`)
-  }
-})
+var tasksPath = __dirname + '/tasks/'
+if (fs.existsSync(tasksPath)) {
+  var tasks = fs.readdirSync(tasksPath)
+  tasks.forEach(function (task) {
+    if (/\.js/.test(task)) {
+      console.log(`holly-craft: Requiring task ${task}...`)
+      require(`./tasks/${task}`)
+    }
+  })
+}
 
 /**
  * Require default gulp commands
@@ -24,14 +27,16 @@ tasks.forEach(function (task) {
 var taskList = require('./default-tasks')
 
 // Append special tasks to base 'holly' tasks
-taskList = global.taskList.push(taskList)
+if (taskList.length > 0) {
+  global.taskList.push(taskList)
+}
 
 // Append 'watch' task for dev env
 if (env === 'dev') {
-  taskList.push('watch')
+  global.taskList.push('watch')
 }
 
 /* --- $ gulp --- */
 gulp.task('default', function (cb) {
-  return runSequence.apply(null, taskList)
+  return runSequence.apply(null, global.taskList)
 })

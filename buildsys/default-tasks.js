@@ -4,4 +4,4 @@
  * @author Keenan Staffieri
  */
 
-modules.exports = []
+module.exports = []
