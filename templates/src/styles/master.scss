@@ -4,10 +4,13 @@
  * @author Keenan Staffieri
  */
 
-body {
-  background-color: red;
+/* --- Bourbon & Neat --- */
 
-  h1 {
-    color: blue;
-  }
-}
+// Bourbon
+@import '../../node_modules/bourbon/app/assets/stylesheets/bourbon';
+
+// Neat
+@import '../../node_modules/bourbon-neat/app/assets/stylesheets/neat';
+
+/* --- normalize --- */
+@import '../../node_modules/normalize.css/normalize';
