@@ -9,3 +9,4 @@
 
 global.config = require('./node_modules/holly-craft/config')
 require('./node_modules/holly/buildsys')
+require('./node_modules/holly-craft/buildsys')
