@@ -26,8 +26,10 @@ var taskList = require('./default-tasks')
 // Append special tasks to base 'holly' tasks
 taskList = global.taskList.push(taskList)
 
-// Append 'watch' task for local development
-taskList.push('watch')
+// Append 'watch' task for dev env
+if (env === 'dev') {
+  taskList.push('watch')
+}
 
 /* --- $ gulp --- */
 gulp.task('default', function (cb) {

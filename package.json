@@ -4,7 +4,9 @@
   "description": "ENVOYsites Gulp build system and boilerplate for Craft 3 CMS.",
   "main": "gulpfile.js",
   "scripts": {
-    "dev": "gulp --dev",
+    "init": "gulp init --local-dev",
+    "dev": "gulp --local-dev",
+    "build": "gulp --local-dev --prod",
     "postinstall": "node install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,9 +21,6 @@
   },
   "homepage": "https://github.com/weareenvoy/holly-craft#readme",
   "dependencies": {
-    "bourbon": "^4.3.1",
-    "bourbon-neat": "^1.8.0",
-    "holly": "weareenvoy/holly",
-    "normalize.css": "^5.0.0"
+    "holly": "weareenvoy/holly"
   }
 }

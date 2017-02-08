@@ -4,14 +4,25 @@
  * @author Keenan Staffieri
  */
 
+var srcRoot = './src'
+var distRoot = './dist'
+
 module.exports = {
-  root: './src',
+  paths: {
+    hollyRoot: __dirname,
+    srcRoot: srcRoot,
+    distRoot: distRoot
+  },
   styles: {
-    src: './src/styles',
-    output: './web/dist/css'
+    paths: {
+      src: srcRoot + '/styles',
+      output: distRoot + '/css'
+    }
   },
   scripts: {
-    src: './src/scripts',
-    output: './web/dist/js'
+    paths: {
+      src: srcRoot + '/scripts',
+      output: distRoot + '/js'
+    }
   }
 }
