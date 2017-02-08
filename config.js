@@ -8,10 +8,10 @@ module.exports = {
   root: './src',
   styles: {
     src: './src/styles',
-    output: './dist/css'
+    output: './web/dist/css'
   },
   scripts: {
     src: './src/scripts',
-    output: './dist/js'
+    output: './web/dist/js'
   }
 }
