@@ -16,13 +16,16 @@ fs.readFileSync('./templates/gulpfile.tpl.js', 'utf8', function (err, data) {
   fs.writeFileSync(prjPath + '/gulpfile.js', data, function (err) {
     if (err) return console.error(err)
     console.log('Created gulpfile.js')
+    copySourceFiles()
   })
 })
 
-ncp('./templates/src', prjPath + '/src', function (err) {
-  if (err) return console.error(err)
-  console.log('Copied over default source files.')
-})
+function copySourceFiles () {
+  ncp('./templates/src', prjPath + '/src', function (err) {
+    if (err) return console.error(err)
+    console.log('Copied over default source files.')
+  })
+}
 
 // Scaffold initial source directories
 // Root source directory
