@@ -5,7 +5,7 @@
  */
 
 var srcRoot = './src'
-var distRoot = './dist'
+var distRoot = './web/dist'
 
 module.exports = {
   paths: {
