@@ -1348,7 +1348,7 @@ delegates@^1.0.0:
 
 deprecated@^0.0.1:
   version "0.0.1"
-  resolved "http://registry.npmjs.org/deprecated/-/deprecated-0.0.1.tgz#f9c9af5464afa1e7a971458a8bdef2aa94d5bb19"
+  resolved "https://registry.yarnpkg.com/deprecated/-/deprecated-0.0.1.tgz#f9c9af5464afa1e7a971458a8bdef2aa94d5bb19"
 
 deps-sort@^2.0.0:
   version "2.0.0"
@@ -1464,9 +1464,9 @@ end-of-stream@~0.1.5:
   dependencies:
     once "~1.3.0"
 
-envoy-holly@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/envoy-holly/-/envoy-holly-0.0.1.tgz#81c12d24303136ed89af5f07a3695d71495b8205"
+envoy-holly@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/envoy-holly/-/envoy-holly-0.0.2.tgz#f66b4779d3e8410dd32d69f42f888f00d65aa8d3"
   dependencies:
     autoprefixer "^6.7.2"
     babel-plugin-transform-class-properties "^6.22.0"
@@ -1871,7 +1871,7 @@ from@~0:
 
 fs-exists-sync@^0.1.0:
   version "0.1.0"
-  resolved "http://registry.npmjs.org/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
+  resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -1997,7 +1997,7 @@ glob-watcher@^0.0.6:
 
 glob2base@^0.0.12:
   version "0.0.12"
-  resolved "https://registry.yarnpkg.com/glob2base/-/glob2base-0.0.12.tgz#9d419b3e28f12e83a362164a277055922c9c0d56"
+  resolved "http://registry.npmjs.org/glob2base/-/glob2base-0.0.12.tgz#9d419b3e28f12e83a362164a277055922c9c0d56"
   dependencies:
     find-index "^0.1.1"
 
@@ -3996,7 +3996,7 @@ regenerator-transform@0.9.8:
 
 regex-cache@^0.4.2:
   version "0.4.3"
-  resolved "http://registry.npmjs.org/regex-cache/-/regex-cache-0.4.3.tgz#9b1a6c35d4d0dfcef5711ae651e8e9d3d7114145"
+  resolved "https://registry.yarnpkg.com/regex-cache/-/regex-cache-0.4.3.tgz#9b1a6c35d4d0dfcef5711ae651e8e9d3d7114145"
   dependencies:
     is-equal-shallow "^0.1.3"
     is-primitive "^2.0.0"
