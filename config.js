@@ -13,6 +13,12 @@ module.exports = {
     srcRoot: srcRoot,
     distRoot: distRoot
   },
+  assets: {
+    paths: {
+      src: srcRoot + '/assets',
+      output: distRoot + '/assets'
+    }
+  },
   styles: {
     paths: {
       src: srcRoot + '/styles',
