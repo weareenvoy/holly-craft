@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/weareenvoy/holly-craft#readme",
   "dependencies": {
-    "holly": "weareenvoy/holly"
+    "envoy-holly": "^0.0.1"
   }
 }

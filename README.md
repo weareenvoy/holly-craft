@@ -11,7 +11,7 @@ https://yarnpkg.com/en/docs/install
 
 1. After Yarn is installed, open the terminal and `cd` to your project's root directory and install **holly** for Craft 3.
 
-        yarn add weareenvoy/holly-craft
+        yarn add envoy-holly-craft
 
 2. After successful installation, a `gulpfile.js` should automatically be generated at your project's root directory. 
 

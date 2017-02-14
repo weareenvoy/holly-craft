@@ -7,7 +7,7 @@
   @author ENVOY development team
  */
 
-global.baseConfig = require('./node_modules/holly/config')
+global.baseConfig = require('./node_modules/envoy-holly/config')
 global.config = require('./config');
-require('./node_modules/holly/buildsys');
+require('./node_modules/envoy-holly/buildsys');
 require('./buildsys')
