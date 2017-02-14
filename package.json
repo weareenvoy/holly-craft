@@ -1,5 +1,5 @@
 {
-  "name": "holly-craft",
+  "name": "envoy-holly-craft",
   "version": "0.0.1",
   "description": "ENVOYsites Gulp build system and boilerplate for Craft 3 CMS.",
   "main": "gulpfile.js",
