@@ -19,6 +19,12 @@ https://yarnpkg.com/en/docs/install
 
         gulp init
 
+## Post-Install
+After installing **holly**, the following entries should be added to the project's `.gitignore` file.
+
+        /web/dist
+        /node_modules
+
 ## Usage
 
 * `gulp`
