@@ -6,12 +6,14 @@
 
 var srcRoot = './src'
 var distRoot = './web/dist'
+var docRoot = '/dist/'
 
 module.exports = {
   paths: {
     hollyRoot: __dirname,
     srcRoot: srcRoot,
-    distRoot: distRoot
+    distRoot: distRoot,
+    distDocRoot: docRoot
   },
   assets: {
     paths: {

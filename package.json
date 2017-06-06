@@ -1,6 +1,6 @@
 {
   "name": "envoy-holly-craft",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "ENVOYsites Gulp build system and boilerplate for Craft 3 CMS.",
   "main": "gulpfile.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/weareenvoy/holly-craft#readme",
   "dependencies": {
-    "envoy-holly": "^0.0.2"
+    "envoy-holly": "^0.1.0"
   }
 }
