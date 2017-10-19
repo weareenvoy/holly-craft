@@ -7,7 +7,7 @@
     "init": "gulp init --local-dev",
     "dev": "gulp --local-dev",
     "build": "gulp --local-dev --prod",
-    "postinstall": "node install.js",
+    "postinstall": "node install-craft.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/weareenvoy/holly-craft#readme",
   "dependencies": {
-    "envoy-holly": "^0.2.2"
+    "envoy-holly": "^0.2.3"
   }
 }
