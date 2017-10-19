@@ -1,5 +1,4 @@
 var fs = require('fs')
-
 var prjPath = '../..'
 
 // Scaffold initial gulpfile
