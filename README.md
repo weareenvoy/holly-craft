@@ -3,17 +3,24 @@
 #### ENVOYsites Gulp build system and boilerplate for Craft 3.
 
 ## Requirements
-**Node 6 recommended, tested on 6.9.5**
+**Node 6 recommended, tested on 6.11**
 
 ## Install
-To get **holly** set up on your Craft 3 project, we recommend that Yarn package manager is installed on your machine. 
-https://yarnpkg.com/en/docs/install
+To get **holly** set up on your Craft 3 project, we recommend that NPM 5 or greater is installed on your machine.
 
-1. After Yarn is installed, open the terminal and `cd` to your project's root directory and install **holly** for Craft 3.
+To check the installed version of NPM, run:
 
-        yarn add envoy-holly-craft
+        npm -v
 
-2. After successful installation, a `gulpfile.js` should automatically be generated at your project's root directory. 
+To upgrade NPM to the latest, run:
+
+        npm install -g npm
+
+1. Now, open the terminal and `cd` to your project's root directory and install **holly** for Craft 3.
+
+        npm install envoy-holly-craft --save-dev
+
+2. After successful installation, a `gulpfile.js` and `.gitignore` should be generated automatically at your project's root directory.
 
 3. Initialize **holly** and answer a few prompts to scaffold starter boilerplate files. 
 
