@@ -15,7 +15,7 @@ config.buildName = 'holly-craft'
 config.runStandalone = false
 config.paths.distRoot = distRoot
 config.assets.paths.output = distRoot + '/assets'
-config.assets.paths.styles = distRoot + '/css'
-config.assets.paths.scripts = distRoot + '/js'
+config.styles.paths.output = distRoot + '/css'
+config.scripts.paths.output = distRoot + '/js'
 
 require('./node_modules/envoy-holly/buildsys')
