@@ -1,8 +1,7 @@
 {
   "name": "envoy-holly-craft",
-  "version": "0.3.1",
-  "description":
-    "ENVOYsites Gulp build system and boilerplate for Craft 3 CMS.",
+  "version": "0.3.2",
+  "description": "ENVOYsites Gulp build system and boilerplate for Craft 3 CMS.",
   "main": "gulpfile.js",
   "scripts": {
     "init": "gulp init --local-dev",
